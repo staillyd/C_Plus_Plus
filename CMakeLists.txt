@@ -6,3 +6,4 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 add_definitions("-Wall -g")
 
 add_subdirectory(2_class_basic)
+add_subdirectory(6_virtual)

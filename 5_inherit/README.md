@@ -34,8 +34,8 @@ class CMaster{
 ```c++
 Base * ptrBase = &objDerived;
 ```
-- 即便基类指针指向的是一个派生类的对象,也不能通过基类指针访问基类没有
-,而派生类中有的成员。
+- **即便基类指针指向的是一个派生类的对象,也不能通过基类指针访问基类没有
+,而派生类中有的成员。**
 - 通过强制指针类型转换,可以把ptrBase转换成Derived类的指针
 ```c++
 Base * ptrBase = &objDerived;
