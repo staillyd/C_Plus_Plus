@@ -1,0 +1,2 @@
+project(string_test)
+add_executable(string_test string_test.cpp)
